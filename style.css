@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 /* header styling*/
@@ -10,7 +11,6 @@ body {
 }
 
 #hero-image {
-    
     height: auto;
     width: 100%;
     max-width: 500px;
@@ -24,16 +24,18 @@ body {
 }
 
 ul {
-    list-style: none;
+    list-style: none; 
     display: flex;
     gap: 24px;
 }
+
+
 
 /* section 1 (hero) styling*/
 .container1 {
     background-color: #1F2937;
     color: white;
-    font-family: sans-serif;
+    flex: 1;
 }
 
 .hero-text {
@@ -72,3 +74,68 @@ a,
 .subtext {
     font-size: 18px;
 }
+
+/* section 2 (info) styling*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    flex: 1;
+}
+
+.info-image {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    gap: 40px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-subtext {
+    max-width: 200px;
+}
+
+/* section 3 (quote) styling*/
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    flex: 1;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 960px;
+}
+
+.credit {
+    align-self: end;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* section 3 (quote) styling*/
